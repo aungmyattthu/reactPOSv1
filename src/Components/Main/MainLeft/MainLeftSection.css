@@ -1,0 +1,5 @@
+.left-section {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #93c5fd;
+}

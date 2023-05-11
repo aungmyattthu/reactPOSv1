@@ -1,0 +1,35 @@
+.add-to-card-item {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background-color: var(--dark-blue);
+  margin: 8px 16px;
+  border-radius: 9px;
+}
+.action-groups {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.action-groups input {
+  width: 50px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 9px;
+  margin-right: 20px;
+}
+
+.btn-move-to-cart {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 14px;
+  color: var(--dark-blue);
+  border-radius: 9px;
+}

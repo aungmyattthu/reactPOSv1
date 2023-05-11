@@ -1,0 +1,29 @@
+.total-container {
+  border-top: 5px solid var(--white);
+  background-color: var(--light-blue);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.total-container p {
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 700;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .total-container {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .total-container .btn {
+    width: 100%;
+    height: 40px;
+  }
+}

@@ -1,0 +1,4 @@
+.right-section {
+  display: gird;
+  grid-template-columns: 1fr;
+}

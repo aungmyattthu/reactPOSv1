@@ -1,0 +1,54 @@
+/* Style the form fields */
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 5px 8px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+/* Style the add button */
+.submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px 8px;
+}
+.submit:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the form container */
+.form-container {
+  margin: 16px 0px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+select#category {
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  margin: 5px 8px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+select#category:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
